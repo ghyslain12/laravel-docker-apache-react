@@ -65,7 +65,7 @@ class MaterialControllerTest extends TestCase
                      '*' => ['id', 'designation', 'created_at', 'updated_at'],
                  ]);
     }
-/*
+
     #[Test]
     public function it_fails_to_list_materials_without_auth()
     {
@@ -187,5 +187,5 @@ class MaterialControllerTest extends TestCase
         $response = $this->deleteJson('/api/material/999');
 
         $response->assertStatus(404);
-    }*/
+    }
 }
